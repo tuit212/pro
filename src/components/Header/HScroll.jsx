@@ -1,19 +1,19 @@
 import React from 'react'
 import { BsLinkedin , BsInstagram , BsGithub} from 'react-icons/bs'
-import { Link } from 'react-router-dom'
+
 
 const HScroll = () => {
   return (
     <div className='header__scroll'>
-        <Link to='https://www.instagram.com/' target='_blank'>
+        <a href="https://www.instagram.com/">
             <BsLinkedin/>
-        </Link>
-        <Link to='https://www.linkedin.com/' target='_blank'>
+        </a>
+        <a href="https://www.linkedin.com/">
             <BsInstagram/>
-        </Link>
-        <Link to='https://github.com/' target='_blank'>
+        </a>
+        <a href="https://github.com/" >
             <BsGithub/>
-        </Link>
+        </a>
     </div>
   )
 }
